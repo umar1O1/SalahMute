@@ -466,4 +466,9 @@
     <string name="about_dua_request_body">السلام عليكم ورحمة الله وبركاته! صُمم هذا التطبيق راجياً أن يكون نافعاً لكم. فإن وجدتم فيه فائدة، أرجو منكم ألا تنسوني ووالديّ من صالح دعائكم.</string>
     <string name="about_dua_return_title">دعاء لكم بالمثل</string>
     <string name="about_dua_return_body">جزاكم الله خيراً! تقبّل الله صالح أعمالكم، ويسّر أموركم، وبارك لكم في الدنيا والآخرة. آمين.</string>
+    <string name="about_feedback_title">الإبلاغ عن مشكلة أو اقتراح</string>
+    <string name="about_feedback_desc">هل واجهت مشكلة أو لديك فكرة؟ معلومات الجهاز تساعد في حلها أسرع — لا تُضمَّن أي جداول أو مواقع.</string>
+    <string name="report_bug_btn">الإبلاغ عن مشكلة على GitHub</string>
+    <string name="copy_device_info">نسخ معلومات الجهاز</string>
+    <string name="device_info_copied">تم نسخ معلومات الجهاز</string>
 </resources>

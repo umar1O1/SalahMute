@@ -466,4 +466,9 @@
     <string name="about_dua_request_body">¡Assalamu Alaikum! Esta aplicación fue creada con la esperanza de serte de beneficio. Si te resulta útil, te pido humildemente que me tengas presente a mí y a mis padres en tus súplicas.</string>
     <string name="about_dua_return_title">Una súplica para ti</string>
     <string name="about_dua_return_body">¡JazakAllahu Khairan! Que Allah acepte tus buenas obras, facilite tus asuntos y te conceda el bien en esta vida y en la otra. Amén.</string>
+    <string name="about_feedback_title">Informar de un error y comentarios</string>
+    <string name="about_feedback_desc">¿Encontraste un problema o tienes una idea? Los datos del dispositivo ayudan a resolverlo más rápido — sin horarios ni ubicaciones.</string>
+    <string name="report_bug_btn">Informar de un error en GitHub</string>
+    <string name="copy_device_info">Copiar datos del dispositivo</string>
+    <string name="device_info_copied">Datos del dispositivo copiados</string>
 </resources>

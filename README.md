@@ -5,6 +5,8 @@ Automatically switches your Android phone to **Vibrate / Silent / Do Not Disturb
 ## Download
 Get the latest signed Android APK (~3.3 MB, Android 8.0+) from the **[GitHub Releases page](https://github.com/umar1O1/SalahMute/releases/latest)**.
 
+Found a bug or have an idea? **[Report an issue or request a feature](https://github.com/umar1O1/SalahMute/issues/new/choose)**.
+
 ## Features
 - **Automatic Daily Prayer Times**: Works completely **offline** (MWL, ISNA, Egyptian, Umm al-Qura, Karachi, Diyanet Turkey, and Shia Jafari / Ithna Ashari; Sunni Hanafi, Sunni Shafi/Maliki/Hanbali, and Shia Jafari schools) with optional **monthly online timetable sync** cached locally on your phone.
 - **Flexible Daily Schedules**: Add multiple custom or prayer-based slots per day, repeat across selected weekdays, copy slots or entire days, archive/restore with swipe gestures, and bulk-manage via multi-select.

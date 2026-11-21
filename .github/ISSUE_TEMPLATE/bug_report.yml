@@ -1,0 +1,49 @@
+name: Bug Report
+description: Report something that isn't working properly in SalahMute
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve SalahMute! Please share a few details below (no personal schedules or exact locations needed).
+
+  - type: input
+    id: app_version
+    attributes:
+      label: App version
+      placeholder: e.g. 1.0.1
+    validations:
+      required: true
+
+  - type: input
+    id: device_info
+    attributes:
+      label: Phone model & Android version
+      placeholder: e.g. Samsung Galaxy A54 · Android 14 (API 34)
+    validations:
+      required: true
+
+  - type: input
+    id: permissions
+    attributes:
+      label: Permissions status (optional)
+      placeholder: e.g. DND=OK, Alarm=OK, Battery=OK, Notif=OK, Loc=OFF
+
+  - type: textarea
+    id: what_happened
+    attributes:
+      label: What happened?
+      description: Describe the issue and what you expected to happen instead.
+      placeholder: e.g. Phone didn't unmute at the end of Dhuhr slot...
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce (optional)
+      placeholder: |
+        1. Open SalahMute
+        2. ...
+        3. ...

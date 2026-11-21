@@ -466,4 +466,9 @@
     <string name="about_dua_request_body">अस्सलामु अलैकुम! यह ऐप इस उम्मीद से बनाया गया है कि आपके काम आए। अगर आपको इससे फ़ायदा हो, तो मेरी विनम्र गुज़ारिश है कि मुझे और मेरे माता-पिता को अपनी दुआओं में ज़रूर याद रखें।</string>
     <string name="about_dua_return_title">आपके लिए दुआ</string>
     <string name="about_dua_return_body">जज़ाकल्लाहु ख़ैरन! अल्लाह आपके नेक आमाल क़बूल फ़रमाए, आपके काम आसान करे और आपको दुनिया व आख़िरत की भलाइयाँ अता फ़रमाए। आमीन।</string>
+    <string name="about_feedback_title">बग रिपोर्ट और सुझाव</string>
+    <string name="about_feedback_desc">कोई समस्या मिली या सुझाव है? डिवाइस जानकारी से इसे जल्दी ठीक करने में मदद मिलती है — आपका कोई शेड्यूल या लोकेशन शामिल नहीं होता।</string>
+    <string name="report_bug_btn">GitHub पर बग रिपोर्ट करें</string>
+    <string name="copy_device_info">डिवाइस जानकारी कॉपी करें</string>
+    <string name="device_info_copied">डिवाइस जानकारी कॉपी हो गई</string>
 </resources>

@@ -466,4 +466,9 @@
     <string name="about_dua_request_body">Assalamu\'alaikum! Aplikasi ini dibuat dengan harapan dapat membawa manfaat bagi Anda. Jika Anda merasa terbantu, dengan rendah hati saya memohon agar mendoakan saya dan kedua orang tua saya.</string>
     <string name="about_dua_return_title">Doa untuk Anda</string>
     <string name="about_dua_return_body">Jazakallahu khairan! Semoga Allah menerima segala amal kebaikan Anda, memudahkan setiap urusan Anda, serta melimpahkan kebaikan di dunia dan akhirat. Aamiin.</string>
+    <string name="about_feedback_title">Laporkan bug &amp; masukan</string>
+    <string name="about_feedback_desc">Menemukan masalah atau punya ide? Info perangkat membantu memperbaikinya lebih cepat — tanpa jadwal atau lokasi Anda.</string>
+    <string name="report_bug_btn">Laporkan bug di GitHub</string>
+    <string name="copy_device_info">Salin info perangkat</string>
+    <string name="device_info_copied">Info perangkat disalin</string>
 </resources>

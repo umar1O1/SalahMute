@@ -466,4 +466,9 @@
     <string name="about_dua_request_body">Ассаляму алейкум! Это приложение создано с надеждой принести вам пользу. Если оно окажется полезным, искренне прошу вас упомянуть меня и моих родителей в своих дуа.</string>
     <string name="about_dua_return_title">Дуа за вас</string>
     <string name="about_dua_return_body">Джазакаллаху хайран! Пусть Аллах примет ваши благие дела, облегчит ваши заботы и дарует вам благо в этом мире и в мире вечном. Аминь.</string>
+    <string name="about_feedback_title">Сообщить об ошибке и отзывы</string>
+    <string name="about_feedback_desc">Нашли ошибку или есть идея? Данные устройства помогут исправить быстрее — расписания и места не передаются.</string>
+    <string name="report_bug_btn">Сообщить об ошибке на GitHub</string>
+    <string name="copy_device_info">Скопировать данные устройства</string>
+    <string name="device_info_copied">Данные устройства скопированы</string>
 </resources>

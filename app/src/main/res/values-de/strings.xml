@@ -466,4 +466,9 @@
     <string name="about_dua_request_body">Assalamu Alaikum! Diese App wurde in der Hoffnung erstellt, dir von Nutzen zu sein. Wenn sie dir hilft, bitte ich dich herzlich, mich und meine Eltern in deinen Bittgebeten nicht zu vergessen.</string>
     <string name="about_dua_return_title">Ein Bittgebet für dich</string>
     <string name="about_dua_return_body">JazakAllahu Khairan! Möge Allah deine guten Taten annehmen, dir deine Angelegenheiten erleichtern und dir Gutes im Diesseits und im Jenseits schenken. Amin.</string>
+    <string name="about_feedback_title">Fehler melden &amp; Feedback</string>
+    <string name="about_feedback_desc">Problem gefunden oder eine Idee? Gerätedaten helfen bei der schnellen Behebung — keine Zeitpläne oder Orte enthalten.</string>
+    <string name="report_bug_btn">Fehler auf GitHub melden</string>
+    <string name="copy_device_info">Gerätedaten kopieren</string>
+    <string name="device_info_copied">Gerätedaten kopiert</string>
 </resources>

@@ -466,4 +466,9 @@
     <string name="about_dua_request_body">Assalamou \'Alaykoum ! Cette application a été conçue dans l\'espoir de vous être utile. Si elle vous apporte un bienfait, je vous demande humblement de penser à moi et à mes parents dans vos invocations.</string>
     <string name="about_dua_return_title">Une invocation pour vous</string>
     <string name="about_dua_return_body">JazakAllahu Khayran ! Qu\'Allah accepte vos bonnes œuvres, facilite vos affaires et vous accorde le bien ici-bas et dans l\'au-delà. Amine.</string>
+    <string name="about_feedback_title">Signaler un bug et retours</string>
+    <string name="about_feedback_desc">Un problème ou une idée ? Les infos de l\'appareil aident à le corriger plus vite — aucun horaire ni lieu n\'est inclus.</string>
+    <string name="report_bug_btn">Signaler un bug sur GitHub</string>
+    <string name="copy_device_info">Copier les infos de l\'appareil</string>
+    <string name="device_info_copied">Infos de l\'appareil copiées</string>
 </resources>

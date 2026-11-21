@@ -466,4 +466,9 @@
     <string name="about_dua_request_body">السلام علیکم! یہ ایپ اس نیت سے بنائی گئی ہے کہ آپ کے لیے فائدہ مند ثابت ہو۔ اگر آپ کو اس سے فائدہ پہنچے تو عاجزانہ گزارش ہے کہ مجھے اور میرے والدین کو اپنی دعاؤں میں ضرور یاد رکھیں۔</string>
     <string name="about_dua_return_title">آپ کے لیے دعا</string>
     <string name="about_dua_return_body">جزاک اللہ خیراً! اللہ تعالیٰ آپ کی تمام نیکیاں قبول فرمائے، آپ کے معاملات میں آسانیاں پیدا فرمائے اور آپ کو دنیا و آخرت کی بھلائیاں عطا فرمائے۔ آمین۔</string>
+    <string name="about_feedback_title">مسئلہ رپورٹ کریں یا رائے دیں</string>
+    <string name="about_feedback_desc">کوئی مسئلہ ملا یا کوئی مشورہ ہے؟ ڈیوائس کی معلومات سے مسئلہ جلدی حل ہوتا ہے — آپ کا کوئی شیڈول یا لوکیشن شامل نہیں ہوتی۔</string>
+    <string name="report_bug_btn">GitHub پر بگ رپورٹ کریں</string>
+    <string name="copy_device_info">ڈیوائس معلومات کاپی کریں</string>
+    <string name="device_info_copied">ڈیوائس معلومات کاپی ہو گئیں</string>
 </resources>

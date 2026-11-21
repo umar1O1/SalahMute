@@ -2,6 +2,8 @@ package com.salahmute.app.ui
 
 import android.Manifest
 import android.content.ActivityNotFoundException
+import android.content.ClipData
+import android.content.ClipboardManager
 import android.content.Context
 import android.content.Intent
 import android.net.Uri
@@ -102,6 +104,7 @@ import com.salahmute.app.model.CalcMethod
 import com.salahmute.app.model.Fiqh
 import com.salahmute.app.prayer.OnlinePrayerSync
 import com.salahmute.app.system.GeoController
+import com.salahmute.app.system.PermState
 import com.salahmute.app.system.Perms
 import com.salahmute.app.system.Scheduler
 import com.salahmute.app.system.StateStore
@@ -1085,6 +1088,46 @@ fun SettingsScreen(
                         }
                     }
 
+                    // Feedback & bug report card (GitHub Issues + 1-tap Copy device info)
+                    SettingsCard(title = stringResource(R.string.about_feedback_title)) {
+                        Text(
+                            text = stringResource(R.string.about_feedback_desc),
+                            style = MaterialTheme.typography.bodySmall,
+                            color = MaterialTheme.colorScheme.onSurfaceVariant,
+                        )
+                        FilledTonalButton(
+                            onClick = {
+                                val uri = buildBugReportUri(perms)
+                                try {
+                                    ctx.startActivity(Intent(Intent.ACTION_VIEW, uri))
+                                } catch (_: ActivityNotFoundException) {
+                                    val cm = ctx.getSystemService(ClipboardManager::class.java)
+                                    cm?.setPrimaryClip(ClipData.newPlainText("SalahMute Info", buildDiagnosticInfo(perms)))
+                                    Toast.makeText(ctx, R.string.device_info_copied, Toast.LENGTH_SHORT).show()
+                                }
+                            },
+                            shape = RoundedCornerShape(14.dp),
+                            modifier = Modifier.fillMaxWidth(),
+                        ) {
+                            Icon(Icons.Filled.Info, null, Modifier.size(18.dp))
+                            Spacer(Modifier.width(8.dp))
+                            Text(stringResource(R.string.report_bug_btn))
+                        }
+                        OutlinedButton(
+                            onClick = {
+                                val cm = ctx.getSystemService(ClipboardManager::class.java)
+                                cm?.setPrimaryClip(ClipData.newPlainText("SalahMute Info", buildDiagnosticInfo(perms)))
+                                Toast.makeText(ctx, R.string.device_info_copied, Toast.LENGTH_SHORT).show()
+                            },
+                            shape = RoundedCornerShape(14.dp),
+                            modifier = Modifier.fillMaxWidth(),
+                        ) {
+                            Icon(painterResource(R.drawable.ic_copy), null, Modifier.size(16.dp))
+                            Spacer(Modifier.width(8.dp))
+                            Text(stringResource(R.string.copy_device_info))
+                        }
+                    }
+
                     // Privacy guarantee footer card
                     SettingsCard(title = stringResource(R.string.privacy_title)) {
                         Text(
@@ -1098,6 +1141,34 @@ fun SettingsScreen(
         }
     }
 }
+
+private fun buildDeviceSummary(): String {
+    val mfg = Build.MANUFACTURER.orEmpty().trim()
+    val model = Build.MODEL.orEmpty().trim()
+    val phone = if (model.startsWith(mfg, ignoreCase = true)) model else "$mfg $model".trim()
+    return "$phone · Android ${Build.VERSION.RELEASE} (API ${Build.VERSION.SDK_INT})"
+}
+
+private fun buildPermissionSummary(perms: PermState): String =
+    "DND=${if (perms.policy) "OK" else "NO"}, " +
+        "Alarm=${if (perms.exactAlarm) "OK" else "NO"}, " +
+        "Battery=${if (perms.battery) "OK" else "NO"}, " +
+        "Notif=${if (perms.notifications) "OK" else "NO"}, " +
+        "Loc=${if (perms.backgroundLocation) "BG" else if (perms.fineLocation) "FG" else "OFF"}"
+
+private fun buildDiagnosticInfo(perms: PermState): String =
+    "App: SalahMute ${BuildConfig.VERSION_NAME} (${BuildConfig.VERSION_CODE})\n" +
+        "Device: ${buildDeviceSummary()}\n" +
+        "Permissions: ${buildPermissionSummary(perms)}"
+
+private fun buildBugReportUri(perms: PermState): Uri =
+    Uri.parse("https://github.com/umar1O1/SalahMute/issues/new")
+        .buildUpon()
+        .appendQueryParameter("template", "bug_report.yml")
+        .appendQueryParameter("app_version", BuildConfig.VERSION_NAME)
+        .appendQueryParameter("device_info", buildDeviceSummary())
+        .appendQueryParameter("permissions", buildPermissionSummary(perms))
+        .build()
 
 @Composable
 private fun MenuGroupCard(content: @Composable ColumnScope.() -> Unit) {

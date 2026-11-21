@@ -466,4 +466,9 @@
     <string name="about_dua_request_body">Selamün Aleyküm! Bu uygulama sizlere faydalı olması niyetiyle hazırlandı. Eğer faydasını görüyorsanız, beni ve anne babamı dualarınızda unutmamanızı gönülden rica ederim.</string>
     <string name="about_dua_return_title">Sizin İçin Dua</string>
     <string name="about_dua_return_body">Allah razı olsun! Rabbim salih amellerinizi kabul eylesin, işlerinizi kolaylaştırsın, dünya ve ahirette sizlere hayırlar ihsan eylesin. Âmin.</string>
+    <string name="about_feedback_title">Hata bildir ve geri bildirim</string>
+    <string name="about_feedback_desc">Bir sorun mu buldunuz? Cihaz bilgisi sorunu hızla çözmeye yardımcı olur — hiçbir program veya konum dahil edilmez.</string>
+    <string name="report_bug_btn">GitHub\'da hata bildir</string>
+    <string name="copy_device_info">Cihaz bilgisini kopyala</string>
+    <string name="device_info_copied">Cihaz bilgisi kopyalandı</string>
 </resources>

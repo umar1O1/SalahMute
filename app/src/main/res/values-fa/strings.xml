@@ -466,4 +466,9 @@
     <string name="about_dua_request_body">سلام علیکم! این برنامه به امید آن ساخته شده که برایتان سودمند باشد. اگر برایتان مفید بود، خالصانه درخواست دارم من و پدر و مادرم را در دعاهای خیرتان یاد کنید.</string>
     <string name="about_dua_return_title">دعایی برای شما</string>
     <string name="about_dua_return_body">جزاکم الله خیراً! خداوند اعمال نیک شما را بپذیرد، کارهایتان را آسان گرداند و خیر دنیا و آخرت را نصیبتان فرماید. آمین.</string>
+    <string name="about_feedback_title">گزارش مشکل و بازخورد</string>
+    <string name="about_feedback_desc">مشکلی پیدا کردید یا پیشنهادی دارید؟ اطلاعات دستگاه به رفع سریع‌تر کمک می‌کند — هیچ برنامه یا مکانی شامل نمی‌شود.</string>
+    <string name="report_bug_btn">گزارش مشکل در GitHub</string>
+    <string name="copy_device_info">کپی اطلاعات دستگاه</string>
+    <string name="device_info_copied">اطلاعات دستگاه کپی شد</string>
 </resources>

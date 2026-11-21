@@ -470,4 +470,9 @@
     <string name="about_dua_request_body">Assalamu Alaikum! This app was built with the hope of bringing benefit to you. If you find it useful, I humbly request you to keep me and my parents in your prayers.</string>
     <string name="about_dua_return_title">Dua for You in Return</string>
     <string name="about_dua_return_body">JazakAllahu Khairan! May Allah accept your good deeds, ease your affairs, and grant you goodness in this world and the Hereafter. Ameen.</string>
+    <string name="about_feedback_title">Report a bug &amp; feedback</string>
+    <string name="about_feedback_desc">Found an issue or have an idea? Device info helps fix it faster — no schedules or locations are included.</string>
+    <string name="report_bug_btn">Report a bug on GitHub</string>
+    <string name="copy_device_info">Copy device info</string>
+    <string name="device_info_copied">Device info copied</string>
 </resources>
